@@ -9,7 +9,7 @@ var MstrWarn =Annun.getNode("master-warning",1);
 var MstrCaution = Annun.getNode("master-caution",1);
 var PWR2 =0;
 var EFB = gui.Dialog.new("/sim/gui/dialogs/EFB/dialog",
-        "Aircraft/Carreidas/Systems/EFB-dlg.xml");
+        "Aircraft/Carreidas-160NG/Systems/EFB-dlg.xml");
 
 var APU = {
   new : func(eng_num){

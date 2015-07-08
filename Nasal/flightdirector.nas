@@ -33,7 +33,7 @@
 # ie: var fltdir = flightdirector.new(property);
 
 var ap_settings = gui.Dialog.new("/sim/gui/dialogs/primus-autopilot/dialog",
-        "Aircraft/Carreidas/Systems/autopilot-dlg.xml");
+        "Aircraft/Carreidas-160NG/Systems/autopilot-dlg.xml");
 
 var flightdirector = {
     new : func(fdprop){

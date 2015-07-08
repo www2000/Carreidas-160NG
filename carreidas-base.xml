@@ -7,20 +7,20 @@
     <description>Carreidas 160 (YASim)</description>
     <author>Emmanuel BARANGER (3D/FDM), Victhor FOSTER (Panel/FDM)</author>
     <status>development</status>
-  
+
     <fuel-fraction> 1 </fuel-fraction>
-  
+
     <sound>
       <audible>true</audible>
-      <path>Aircraft/Carreidas/Sounds/carreidas-sound.xml</path>
+      <path>Aircraft/Carreidas-160NG/Sounds/carreidas-sound.xml</path>
     </sound>
 
     <startup>
-      <splash-texture>Aircraft/Carreidas/carreidas-splash.png</splash-texture>
+      <splash-texture>Aircraft/Carreidas-160NG/carreidas-splash.png</splash-texture>
     </startup>
 
     <model>
-     <path>Aircraft/Carreidas/Models/carreidas.xml</path>
+     <path>Aircraft/Carreidas-160NG/Models/carreidas.xml</path>
       <livery>
         <file type="string">default</file>
       </livery>
@@ -33,20 +33,20 @@
 
     <systems>
       <autopilot>
-        <path>Aircraft/Carreidas/Systems/autopilot.xml</path>
+        <path>Aircraft/Carreidas-160NG/Systems/autopilot.xml</path>
       </autopilot>
-      <path>Aircraft/Carreidas/Systems/systems.xml</path>
+      <path>Aircraft/Carreidas-160NG/Systems/systems.xml</path>
     </systems>
 
     <instrumentation>
-      <path>Aircraft/Carreidas/Systems/instrumentation.xml</path>
+      <path>Aircraft/Carreidas-160NG/Systems/instrumentation.xml</path>
     </instrumentation>
-    
+
     <virtual-cockpit archive="y">true</virtual-cockpit>
 
     <multiplay>
       <chat_display>1</chat_display>
-      <generic> 
+      <generic>
         <int type="int" n="0">  0 </int>                                           <!--  0 immat -->
         <int type="int" n="1">  0 </int>                                           <!--  1 immat -->
         <int type="int" n="2">  0 </int>                                           <!--  2 immat -->
@@ -100,7 +100,7 @@
     <menubar include="Dialogs/carreidas-menu.xml"/>
 
   </sim>
-  
+
   <input>
     <keyboard include="Nasal/carreidas-keyboard.xml"/>
   </input>
@@ -109,6 +109,10 @@
     <electrical>
       <ac-volts>0</ac-volts>
     </electrical>
+    <static>
+      <serviceable type="bool" archive="y">true</serviceable>
+      <pressure-inhg type="double" archive="y">29.92</pressure-inhg>
+    </static>
   </systems>
 
   <instrumentation>
@@ -177,29 +181,29 @@
 
   <nasal>
     <doors>
-      <file>Aircraft/Carreidas/Nasal/doors.nas</file>
+      <file>Aircraft/Carreidas-160NG/Nasal/doors.nas</file>
     </doors>
     <carreidas>
-      <file>Aircraft/Carreidas/Nasal/liveries.nas</file>
-      <file>Aircraft/Carreidas/Nasal/light.nas</file>
-      <file>Aircraft/Carreidas/Nasal/immat.nas</file>
-      <file>Aircraft/Carreidas/Nasal/pilot-g.nas</file>
+      <file>Aircraft/Carreidas-160NG/Nasal/liveries.nas</file>
+      <file>Aircraft/Carreidas-160NG/Nasal/light.nas</file>
+      <file>Aircraft/Carreidas-160NG/Nasal/immat.nas</file>
+      <file>Aircraft/Carreidas-160NG/Nasal/pilot-g.nas</file>
     </carreidas>
     <efis>
       <file>Aircraft/Instruments-3d/primus-1000/P1000.nas</file>
     </efis>
     <systems>
-      <file>Aircraft/Carreidas/Nasal/System.nas</file>
-      <file>Aircraft/Carreidas/Nasal/Electrical.nas</file>
-      <file>Aircraft/Carreidas/Nasal/flightdirector.nas</file>
-      <file>Aircraft/Carreidas/Models/Interior/Panel/overhead/Instruments/KLN90B/kln90b.nas</file>
+      <file>Aircraft/Carreidas-160NG/Nasal/System.nas</file>
+      <file>Aircraft/Carreidas-160NG/Nasal/Electrical.nas</file>
+      <file>Aircraft/Carreidas-160NG/Nasal/flightdirector.nas</file>
+      <file>Aircraft/Carreidas-160NG/Models/Interior/Panel/overhead/Instruments/KLN90B/kln90b.nas</file>
     </systems>
     <radar>
-      <file>Aircraft/Carreidas/Models/Interior/Panel/Instruments/RDR-160/RDR160.nas</file>
+      <file>Aircraft/Carreidas-160NG/Models/Interior/Panel/Instruments/RDR-160/RDR160.nas</file>
     </radar>
 <!--
     <kr87>
-      <file>Aircraft/Carreidas/Models/Interior/Panel/Instruments/kr87/kr87.nas</file>
+      <file>Aircraft/Carreidas-160NG/Models/Interior/Panel/Instruments/kr87/kr87.nas</file>
       <script><![CDATA[
         kr87.new("/instrumentation/adf[0]");
         kr87.new("/instrumentation/adf[1]");
@@ -207,17 +211,17 @@
     </kr87>
 -->
     <ki266>
-      <file>Aircraft/Carreidas/Models/Interior/Panel/Instruments/dme/ki266.nas</file>
+      <file>Aircraft/Carreidas-160NG/Models/Interior/Panel/Instruments/dme/ki266.nas</file>
       <script><![CDATA[
         ki266.new(0);
       ]]></script>
     </ki266>
     <m877>
-      <file>Aircraft/Carreidas/Models/Interior/Panel/Instruments/M877/M877.nas</file>
+      <file>Aircraft/Carreidas-160NG/Models/Interior/Panel/Instruments/M877/M877.nas</file>
     </m877>
     <engines>
       <file>Aircraft/Generic/Engines/generic-yasim-engine.nas</file>
-      <file>Aircraft/Carreidas/Nasal/engines-yasim.nas</file>
+      <file>Aircraft/Carreidas-160NG/Nasal/engines-yasim.nas</file>
     </engines>
   </nasal>
 

@@ -5,7 +5,7 @@
   <!-- Cockpit -->
   <!-- Seats -->
   <model>
-    <path>Aircraft/Carreidas/Models/Interior/Seats/seat.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Interior/Seats/seat.xml</path>
     <offsets>
       <x-m> -9.77821 </x-m>
       <y-m> -0.47670 </y-m>
@@ -14,7 +14,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Carreidas/Models/Interior/Seats/seat.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Interior/Seats/seat.xml</path>
     <offsets>
       <x-m> -9.77821 </x-m>
       <y-m>  0.47670 </y-m>
@@ -24,7 +24,7 @@
 
   <!-- Cabine -->
   <model>
-    <path>Aircraft/Carreidas/Models/Interior/Seats/seat.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Interior/Seats/seat.xml</path>
     <offsets>
       <x-m> -5.61310 </x-m>
       <y-m>  0.56458 </y-m>
@@ -34,7 +34,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Carreidas/Models/Interior/Seats/seat.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Interior/Seats/seat.xml</path>
     <offsets>
       <x-m> -3.16483 </x-m>
       <y-m>  0.56463 </y-m>
@@ -43,7 +43,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Carreidas/Models/Interior/Seats/seat.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Interior/Seats/seat.xml</path>
     <offsets>
       <x-m> -1.83119 </x-m>
       <y-m>  0.56463 </y-m>
@@ -52,7 +52,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Carreidas/Models/Interior/Seats/seat.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Interior/Seats/seat.xml</path>
     <offsets>
       <x-m> -1.83119 </x-m>
       <y-m> -0.62285 </y-m>
@@ -61,7 +61,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Carreidas/Models/Interior/Seats/seat.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Interior/Seats/seat.xml</path>
     <offsets>
       <x-m> -0.51582 </x-m>
       <y-m>  0.56463 </y-m>
@@ -70,7 +70,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Carreidas/Models/Interior/Seats/seat.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Interior/Seats/seat.xml</path>
     <offsets>
       <x-m> -0.51582 </x-m>
       <y-m> -0.62285 </y-m>
@@ -79,7 +79,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Carreidas/Models/Interior/Seats/seat.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Interior/Seats/seat.xml</path>
     <offsets>
       <x-m>  0.89089 </x-m>
       <y-m>  0.56463 </y-m>
@@ -88,7 +88,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Carreidas/Models/Interior/Seats/seat.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Interior/Seats/seat.xml</path>
     <offsets>
       <x-m>  0.89089 </x-m>
       <y-m> -0.62285 </y-m>
@@ -97,7 +97,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Carreidas/Models/Interior/Seats/table.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Interior/Seats/table.xml</path>
     <offsets>
       <x-m> -4.40869 </x-m>
       <y-m>  0.58198 </y-m>

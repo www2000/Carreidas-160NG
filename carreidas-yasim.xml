@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
-<airplane mass="24800">
+<airplane mass="24800" version="YASIM_VERSION_CURRENT">
 
   <approach speed="150" aoa="2" fuel="0.3">
     <control-setting axis="/controls/engines/engine[0]/throttle" value="0.2"/>
@@ -78,8 +78,8 @@
   </hstab>
 
   <vstab x="-7.985" y="0" z="-0.085"
-         chord="4.479" 
-         length="5" 
+         chord="4.479"
+         length="5"
          taper="0.60"
          sweep="46">
          <stall aoa="16" width="4" peak="1.5"/>
@@ -238,7 +238,7 @@
   <tank x="-1" y=" 2" z="-2" jet="true" capacity="25000"/>
   <tank x=" 0" y=" 0" z="-2" jet="true" capacity="14000"/>
   <tank x="-1" y="-2" z="-2" jet="true" capacity="25000"/>
-  
+
   <ballast  x="-9.126" y="0" z="0" mass="-14000"/>
   <ballast  x=" 4.000" y="0" z="0" mass="  3500"/>
 

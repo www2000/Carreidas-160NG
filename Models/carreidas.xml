@@ -6,7 +6,7 @@
 
   <nasal>
     <load>
-      var livery_update = aircraft.livery_update.new("Aircraft/Carreidas/Models/Liveries", 10);
+      var livery_update = aircraft.livery_update.new("Aircraft/Carreidas-160NG/Models/Liveries", 10);
 
       var self = cmdarg();
 
@@ -252,7 +252,7 @@
 
   <!-- Une ombre pour OSG -->
   <model>
-    <path>Aircraft/Carreidas/Models/shadow.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/shadow.xml</path>
     <offsets>
       <x-m>  0.000 </x-m>
       <y-m>  0.000 </y-m>
@@ -263,7 +263,7 @@
   <!-- Intérieur -->
   <model>
     <name>Interieur</name>
-    <path>Aircraft/Carreidas/Models/Interior/interior.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Interior/interior.xml</path>
   </model>
 
   <!-- For Rembrandt -->
@@ -274,13 +274,13 @@
 
   <!-- Immatriculation -->
   <model>
-    <path>Aircraft/Carreidas/Models/Immat/immat.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Immat/immat.xml</path>
   </model>
 
   <!-- Les flammes -->
   <!-- Gauche -->
   <model>
-    <path>Aircraft/Carreidas/Models/Effects/flammes/combustionG.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Effects/flammes/combustionG.xml</path>
     <offsets>
       <x-m>  8.359 </x-m>
       <y-m> -1.796 </y-m>
@@ -290,7 +290,7 @@
 
   <!-- Centre -->
   <model>
-    <path>Aircraft/Carreidas/Models/Effects/flammes/combustionC.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Effects/flammes/combustionC.xml</path>
     <offsets>
       <x-m> 10.711 </x-m>
       <y-m>  0.000 </y-m>
@@ -300,7 +300,7 @@
 
   <!-- Droite -->
   <model>
-    <path>Aircraft/Carreidas/Models/Effects/flammes/combustionD.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Effects/flammes/combustionD.xml</path>
     <offsets>
       <x-m>  8.359 </x-m>
       <y-m>  1.796 </y-m>
@@ -310,7 +310,7 @@
 
   <!-- Trainée Gauche -->
   <model>
-    <path>Aircraft/Carreidas/Models/Effects/smoke/smokeG.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Effects/smoke/smokeG.xml</path>
     <offsets>
       <x-m>  8.122 </x-m>
       <y-m> -1.718 </y-m>
@@ -319,7 +319,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Carreidas/Models/Effects/trail/trailG.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Effects/trail/trailG.xml</path>
     <offsets>
       <x-m>  8.122 </x-m>
       <y-m> -1.718 </y-m>
@@ -329,7 +329,7 @@
 
   <!-- Trainée Central -->
   <model>
-    <path>Aircraft/Carreidas/Models/Effects/smoke/smokeC.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Effects/smoke/smokeC.xml</path>
     <offsets>
       <x-m> 11.057 </x-m>
       <y-m>  0.000 </y-m>
@@ -338,7 +338,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Carreidas/Models/Effects/trail/trailC.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Effects/trail/trailC.xml</path>
     <offsets>
       <x-m> 11.057 </x-m>
       <y-m>  0.000 </y-m>
@@ -348,7 +348,7 @@
 
   <!-- Trainée Droite -->
   <model>
-    <path>Aircraft/Carreidas/Models/Effects/smoke/smokeD.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Effects/smoke/smokeD.xml</path>
     <offsets>
       <x-m>  8.122 </x-m>
       <y-m>  1.718 </y-m>
@@ -357,7 +357,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Carreidas/Models/Effects/trail/trailD.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Effects/trail/trailD.xml</path>
     <offsets>
       <x-m>  8.122 </x-m>
       <y-m>  1.718 </y-m>
@@ -368,7 +368,7 @@
   <!-- Effets sur le sol -->
   <!-- Roue avant -->
   <model>
-    <path>Aircraft/Carreidas/Models/Effects/ground/ground0.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Effects/ground/ground0.xml</path>
     <offsets>
       <x-m> -8.958 </x-m>
       <y-m>  0.000 </y-m>
@@ -378,7 +378,7 @@
 
   <!-- Roue gauche 1 -->
   <model>
-    <path>Aircraft/Carreidas/Models/Effects/ground/ground1.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Effects/ground/ground1.xml</path>
     <offsets>
       <x-m>  1.140 </x-m>
       <y-m> -2.519 </y-m>
@@ -388,7 +388,7 @@
 
   <!-- Roue gauche 2 -->
   <model>
-    <path>Aircraft/Carreidas/Models/Effects/ground/ground1.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Effects/ground/ground1.xml</path>
     <offsets>
       <x-m>  2.364 </x-m>
       <y-m> -2.519 </y-m>
@@ -398,7 +398,7 @@
 
   <!-- Roue droite 1 -->
   <model>
-    <path>Aircraft/Carreidas/Models/Effects/ground/ground2.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Effects/ground/ground2.xml</path>
     <offsets>
       <x-m>  1.140 </x-m>
       <y-m>  2.519 </y-m>
@@ -408,7 +408,7 @@
 
   <!-- Roue droite 2 -->
   <model>
-    <path>Aircraft/Carreidas/Models/Effects/ground/ground2.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Effects/ground/ground2.xml</path>
     <offsets>
       <x-m>  2.364 </x-m>
       <y-m>  2.519 </y-m>
@@ -908,7 +908,7 @@
 
   <!-- Flash gauche -->
   <model>
-    <path>Aircraft/Carreidas/Models/light/flash.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/light/flash.xml</path>
     <offsets>
       <x-m> -3.519 </x-m>
       <y-m> -1.493 </y-m>
@@ -918,7 +918,7 @@
 
   <!-- Flash droit -->
   <model>
-    <path>Aircraft/Carreidas/Models/light/flash.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/light/flash.xml</path>
     <offsets>
       <x-m> -3.519 </x-m>
       <y-m>  1.493 </y-m>
@@ -928,7 +928,7 @@
 
   <!-- Beacon -->
   <model>
-    <path>Aircraft/Carreidas/Models/light/beacon.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/light/beacon.xml</path>
     <offsets>
       <x-m> -3.104 </x-m>
       <y-m>  0.000 </y-m>
@@ -939,7 +939,7 @@
   <!-- Lumière rouge gauche -->
   <model>
     <name>LeftLight</name>
-    <path>Aircraft/Carreidas/Models/light/RedLight.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/light/RedLight.xml</path>
     <offsets>
       <x-m>   3.391 </x-m>
       <y-m> -11.441 </y-m>
@@ -950,7 +950,7 @@
   <!-- Lumière blanche -->
   <model>
     <name>LeftLightW</name>
-    <path>Aircraft/Carreidas/Models/light/StrobeLight.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/light/StrobeLight.xml</path>
     <offsets>
       <x-m>   3.391 </x-m>
       <y-m> -11.541 </y-m>
@@ -961,7 +961,7 @@
   <!-- Lumière verte -->
   <model>
     <name>RightLight</name>
-    <path>Aircraft/Carreidas/Models/light/GreenLight.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/light/GreenLight.xml</path>
     <offsets>
       <x-m>  3.391 </x-m>
       <y-m> 11.441 </y-m>
@@ -972,7 +972,7 @@
   <!-- Lumière blanche -->
   <model>
     <name>RightLightW</name>
-    <path>Aircraft/Carreidas/Models/light/StrobeLight.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/light/StrobeLight.xml</path>
     <offsets>
       <x-m>  3.391 </x-m>
       <y-m> 11.541 </y-m>
@@ -983,7 +983,7 @@
   <!-- Wing light cone -->
   <model>
     <name>Left-Taxi-Light</name>
-    <path>Aircraft/Carreidas/Models/light/light-cone.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/light/light-cone.xml</path>
     <offsets>
       <x-m>         -3.519 </x-m>
       <y-m>         -1.493 </y-m>
@@ -995,7 +995,7 @@
 
   <model>
     <name>Right-Taxi-Light</name>
-    <path>Aircraft/Carreidas/Models/light/light-cone.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/light/light-cone.xml</path>
     <offsets>
       <x-m>         -3.519 </x-m>
       <y-m>          1.493 </y-m>

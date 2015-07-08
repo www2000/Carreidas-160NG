@@ -11,10 +11,25 @@
     <number>0</number>
   </pitot>
 
+  <pitot>
+    <name>pitot</name>
+    <number>1</number>
+  </pitot>
+
   <static>
     <name>static</name>
     <number>0</number>
-    <tau>1</tau>
+    <type>1</type>
+    <tau>0.1</tau>
+    <error-factor>0.5</error-factor>
+  </static>
+
+  <static>
+    <name>static</name>
+    <number>1</number>
+    <type>1</type>
+    <tau>0.1</tau>
+    <error-factor>0.5</error-factor>
   </static>
 
   <vacuum>

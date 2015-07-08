@@ -38,12 +38,12 @@
 
   <!-- Pilote -->
   <model>
-    <path>Aircraft/Carreidas/Models/Interior/Seats/All-Seats.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Interior/Seats/All-Seats.xml</path>
   </model>
 
   <!-- Pilote -->
   <model>
-    <path>Aircraft/Carreidas/Models/Pilot/pilot.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Pilot/pilot.xml</path>
     <offsets>
       <x-m> -10.107 </x-m>
       <y-m>  -0.462 </y-m>
@@ -53,7 +53,7 @@
 
   <!-- Panel -->
   <model>
-    <path>Aircraft/Carreidas/Models/Interior/Panel/panel.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Interior/Panel/panel.xml</path>
     <offsets>
       <x-m> -11.250 </x-m>
       <y-m>   0.000 </y-m>
@@ -63,7 +63,7 @@
 
   <!-- iPad "Removed for the moment....
   <model>
-    <path>Aircraft/Carreidas/Models/Interior/Panel/iPad/ipad.xml</path>
+    <path>Aircraft/Carreidas-160NG/Models/Interior/Panel/iPad/ipad.xml</path>
     <offsets>
       <pitch-deg>-90</pitch-deg>
       <heading-deg>180</heading-deg>

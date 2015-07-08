@@ -8,7 +8,7 @@
     <engine>
       <name>engine-start-inside</name>
       <mode>once</mode>
-      <path>Aircraft/Carreidas/Sounds/turbine_start_in.wav</path>
+      <path>Aircraft/Carreidas-160NG/Sounds/turbine_start_in.wav</path>
       <condition>
         <and>
           <property>/controls/engines/engine[0]/starter</property>
@@ -33,7 +33,7 @@
    
     <engine>
       <name>whine-int</name>
-      <path>Aircraft/Carreidas/Sounds/engine-int.wav</path>
+      <path>Aircraft/Carreidas-160NG/Sounds/engine-int.wav</path>
       <mode>looped</mode>
       <condition>
         <property>/engines/engine[0]/running</property>
@@ -58,7 +58,7 @@
     <engine>
       <name>engine-start-outside0</name>
       <mode>once</mode>
-      <path>Aircraft/Carreidas/Sounds/spey-startup.wav</path>
+      <path>Aircraft/Carreidas-160NG/Sounds/spey-startup.wav</path>
       <condition>
         <and>
           <greater-than>  
@@ -92,7 +92,7 @@
 
    <engine>
       <name>whine0</name>
-      <path>Aircraft/Carreidas/Sounds/spey-engine.wav</path>
+      <path>Aircraft/Carreidas-160NG/Sounds/spey-engine.wav</path>
       <mode>looped</mode>
       <condition>
         <property>/engines/engine[0]/running</property>
@@ -116,7 +116,7 @@
   
     <engine>
       <name>engine</name>
-      <path>Aircraft/Carreidas/Sounds/jet-blast.wav</path>
+      <path>Aircraft/Carreidas-160NG/Sounds/jet-blast.wav</path>
       <mode>looped</mode>
       <condition>
         <property>engines/engine[0]/running</property>
@@ -141,7 +141,7 @@
     <engine>
       <name>engine-start-inside</name>
       <mode>once</mode>
-      <path>Aircraft/Carreidas/Sounds/turbine_start_in.wav</path>
+      <path>Aircraft/Carreidas-160NG/Sounds/turbine_start_in.wav</path>
       <condition>
         <and>
           <property>/controls/engines/engine[1]/starter</property>
@@ -166,7 +166,7 @@
    
     <engine>
       <name>whine-int</name>
-      <path>Aircraft/Carreidas/Sounds/engine-int.wav</path>
+      <path>Aircraft/Carreidas-160NG/Sounds/engine-int.wav</path>
       <mode>looped</mode>
       <condition>
         <property>/engines/engine[1]/running</property>
@@ -191,7 +191,7 @@
     <engine>
       <name>engine-start-outside0</name>
       <mode>once</mode>
-      <path>Aircraft/Carreidas/Sounds/spey-startup.wav</path>
+      <path>Aircraft/Carreidas-160NG/Sounds/spey-startup.wav</path>
       <condition>
         <and>
           <greater-than>  
@@ -225,7 +225,7 @@
 
    <engine>
       <name>whine0</name>
-      <path>Aircraft/Carreidas/Sounds/spey-engine.wav</path>
+      <path>Aircraft/Carreidas-160NG/Sounds/spey-engine.wav</path>
       <mode>looped</mode>
       <condition>
         <property>/engines/engine[1]/running</property>
@@ -249,7 +249,7 @@
   
     <engine>
       <name>engine</name>
-      <path>Aircraft/Carreidas/Sounds/jet-blast.wav</path>
+      <path>Aircraft/Carreidas-160NG/Sounds/jet-blast.wav</path>
       <mode>looped</mode>
       <condition>
         <property>engines/engine[1]/running</property>
@@ -274,7 +274,7 @@
     <engine>
       <name>engine-start-inside</name>
       <mode>once</mode>
-      <path>Aircraft/Carreidas/Sounds/turbine_start_in.wav</path>
+      <path>Aircraft/Carreidas-160NG/Sounds/turbine_start_in.wav</path>
       <condition>
         <and>
           <property>/controls/engines/engine[2]/starter</property>
@@ -299,7 +299,7 @@
    
     <engine>
       <name>whine-int</name>
-      <path>Aircraft/Carreidas/Sounds/engine-int.wav</path>
+      <path>Aircraft/Carreidas-160NG/Sounds/engine-int.wav</path>
       <mode>looped</mode>
       <condition>
         <property>/engines/engine[2]/running</property>
@@ -324,7 +324,7 @@
     <engine>
       <name>engine-start-outside0</name>
       <mode>once</mode>
-      <path>Aircraft/Carreidas/Sounds/spey-startup.wav</path>
+      <path>Aircraft/Carreidas-160NG/Sounds/spey-startup.wav</path>
       <condition>
         <and>
           <greater-than>  
@@ -358,7 +358,7 @@
 
    <engine>
       <name>whine0</name>
-      <path>Aircraft/Carreidas/Sounds/spey-engine.wav</path>
+      <path>Aircraft/Carreidas-160NG/Sounds/spey-engine.wav</path>
       <mode>looped</mode>
       <condition>
         <property>/engines/engine[2]/running</property>
@@ -382,7 +382,7 @@
   
     <engine>
       <name>engine</name>
-      <path>Aircraft/Carreidas/Sounds/jet-blast.wav</path>
+      <path>Aircraft/Carreidas-160NG/Sounds/jet-blast.wav</path>
       <mode>looped</mode>
       <condition>
         <property>engines/engine[2]/running</property>

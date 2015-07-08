@@ -20,7 +20,7 @@ var refresh_immat = func {
 }
 
 var immat_dialog = gui.Dialog.new("/sim/gui/dialogs/carreidas/status/dialog",
-				  "Aircraft/Carreidas/Dialogs/immat.xml");
+				  "Aircraft/Carreidas-160NG/Dialogs/immat.xml");
 
 setlistener("/sim/signals/fdm-initialized", func {
   if (props.globals.getNode("/sim/model/immat") == nil) {

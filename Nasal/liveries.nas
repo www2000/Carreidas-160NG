@@ -1,3 +1,3 @@
-aircraft.livery.init("Aircraft/Carreidas/Models/Liveries");
+aircraft.livery.init("Aircraft/Carreidas-160NG/Models/Liveries");
 
 
